@@ -46,6 +46,33 @@ export const About = () => {
                         </div>
                     </div>
                 </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+                    <div class="p-6 rounded-xl border-white/10 border hover:-transalte-y-1 transition-all">
+                        <h3 class="text-xl font-bold mb-4">Education</h3>
+                        <ul className="list-disc list-inside text-gray-300 space-y-2">
+                            <li>
+                                <strong>Dip in Infomation Technolgy Business   </strong> Uganda Institute of Information Communication Technolgy 2011 - 2013
+                            </li>
+                            <hr className="text-white/10" />
+                            <li>
+                                <strong>Software Engineer</strong> ALX/Holberton School - Frontend Specialization 2022-2024
+                            </li>
+                            <hr className="text-white/10" />
+                            <li>
+                                <strong>Nano-degree in UX Design</strong> Udacity - 2021
+                            </li>
+                        </ul>
+                    </div> 
+
+                    <div class="p-6 rounded-xl border-white/10 border hover:-transalte-y-1 transition-all">
+                        <h3 class="text-xl font-bold mb-4">Work Experience</h3>
+                        <div className="space-y-4 tet-gray-300">
+                                <h4 className="font-semibold">Frelance Website Dveloper (Jan. 2025 - Present)</h4>
+                                <p>Designing and Mantaining of WordPress based ebsites</p>
+                        </div>
+                    </div>                     
+                </div>
             </div>
         </section>
     )
