@@ -13,9 +13,10 @@ export const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-        import.meta.VITE_SERVICE_ID, 
-        import.meta.VITE_TEMPLATE_ID, e.target, 
-        import.meta.VITE_PUBLIC_KEY)
+        import.meta.env.VITE_SERVICE_ID, 
+        import.meta.env.VITE_TEMPLATE_ID, 
+        e.target, 
+        import.meta.env.VITE_PUBLIC_KEY)
       .then(() => {
         alert("Message Sent!");
         setFormData({ name: "", email: "", message: "" });
